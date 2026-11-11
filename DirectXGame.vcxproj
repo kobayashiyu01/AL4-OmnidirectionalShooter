@@ -164,8 +164,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\KamataEngine20260409\DirectXGame\MapChipField.cpp" />
+    <ClCompile Include="CameraController.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathematicalFunction.cpp" />
     <ClCompile Include="Matrix4x4.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="WorldMatrix.cpp" />
@@ -268,7 +271,10 @@
     <None Include="Resources\shaders\Sprite.hlsli" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\KamataEngine20260409\DirectXGame\MapChipField.h" />
+    <ClInclude Include="CameraController.h" />
     <ClInclude Include="GameScene.h" />
+    <ClInclude Include="MathematicalFunction.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="WorldMatrix.h" />
